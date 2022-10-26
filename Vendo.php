@@ -48,7 +48,7 @@
                     <select name="size" id="size">
                         <?php 
                             foreach($arrSize as $key => $value){
-                                echo '<option value="'.$key.'">'.$key.' (add P'.$value.')'.'</option>';
+                                echo '<option value="'.$key.'">'.$key.' (add ₱ '.$value.')'.'</option>';
                             }
                         ?>
                     </select>
